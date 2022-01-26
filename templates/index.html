@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>欢迎来到我的空间</title>
+    <style>
+        body {
+            width: 95%;
+            background: url(../static/images/bg1.png) no-repeat;
+            background-size: 100%;
+            margin: 4% auto;
+        }
+        
+        .bj{
+            background-color: rgba(255,255,255,0.8);
+            padding: 13px;
+            margin-bottom: 10px;
+            border-radius:5px ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);            
+
+        }
+        
+        /* 创建两列 */
+        /* Left column */
+        .left {
+            float: left;
+            width: 23%;
+            margin-right: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* 右侧栏 */
+        .right {
+            float: right;
+            width: 75%;
+            margin-right: 5px;
+            margin-bottom: 20px;
+        }
+        
+        a {
+            display: inline-block;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        
+        img{
+            width: 32.5%;
+        }
+        .work  img{
+            width: 100%;
+        }
+        .work{
+            width: 32.5%;
+            display: inline-block;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+<script type="text/javascript" nonce="7bf0d0f646004c3f9e156f10bce" src="//local.adguard.org?ts=1643169951615&amp;type=content-script&amp;dmn=livefile.xesimg.com&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="7bf0d0f646004c3f9e156f10bce" src="//local.adguard.org?ts=1643169951615&amp;name=AdGuard%20Assistant&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;name=Web%20of%20Trust&amp;type=user-script"></script><script type="text/javascript" nonce="7bf0d0f646004c3f9e156f10bce" src="//local.adguard.org?ts=1643169951615&amp;type=content-script&amp;dmn=livefile.xesimg.com&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="7bf0d0f646004c3f9e156f10bce" src="//local.adguard.org?ts=1643169951615&amp;name=AdGuard%20Assistant&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;name=Web%20of%20Trust&amp;type=user-script"></script></head>
+
+<body>
+    
+ <!--=====================导航区域(上布局)======================================-->
+    <div class="bj">
+            <a href="#introduce">个人简介</a>
+            <a href="#photo">个人相册</a>
+            <a href="#music">音乐播放器</a>
+            <a href="#program">编程作品</a>
+            <a href="#share">编程知识分享</a>
+            
+    </div>
+    
+<!--=====================内容区域（下布局）======================================-->
+    <div class="main">
+        
+        
+        <!--=====================内容区域（左布局）=============================-->
+        <div class="left">
+            <!--个人简介-->   
+            <div id="introduce" class="bj">
+                <img src="../static/images/introduce.png" style="width:100%">
+                <h2 class="card-title">码农一枚</h2>
+                <p class="card-text">民族：汉族</p>
+                <p class="card-text">年龄：20岁</p>
+                <p class="card-text">生日：2000.10.20</p>
+                <p class="card-text">爱好:读书、看电影、编程</p>
+                <p class="card-text">优点：乐观开朗、善解人意</p>
+                <p class="card-text">技能：Python、Html、C</p>
+            </div>
+            <!--音乐播放器-->
+            <div id="music" class="bj">
+                <h3 class="card-title">音乐播放器</h3>
+                 BGM1:
+                <audio controls="controls" style="width:100%">
+                    <source src="../static/music/bgm.mp3">
+                </audio>
+                BGM2:
+                <audio controls="controls" style="width:100%">
+                    <source src="../static/music/buttercup.mp3">
+                </audio>
+                BGM2:
+                <audio controls="controls" style="width:100%">
+                    <source src="../static/music/bgm3.mp3">
+                </audio>
+            </div>
+        
+        </div>
+        
+        
+        <!--=====================内容区域（右布局）=============================-->
+        <div class="right">
+            <!--个人相册-->
+            <div id ="photo" class="bj">
+                <h2><span><img src="../static/images/相册.png" style="width:68px" align="middle"></span>个人相册</h2>
+                <img src="../static/images/X公路.jpg">
+                <img src="../static/images/X蛋糕.jpg" >
+                <img src="../static/images/X梨花.png">
+                <img src="../static/images/X烟花.png">
+                <img src="../static/images/X猫.png">
+                <img src="../static/images/X游轮.png">
+            </div>
+            
+            <!--编程作品-->
+            <div id="program" class="bj">
+                <h2><span><img src="../static/images/作品.png" style="width:68px" align="middle"></span>编程作品</h2>
+                
+                <div class="work">
+                    <img src="../static/images/沙漠.jpg">
+                    <p>俄罗斯方块</p>
+                </div>
+                
+                <div class="work">
+                    <img src="../static/images/自行车.jpg">
+                    <p>迷宫大冒险</p>
+                </div>
+                
+                <div class="work">
+                    <img src="../static/images/音乐.jpg">
+                    <p>荒岛生存</p>
+                </div>
+            </div>
+            
+            <!--编程知识分享-->
+            <div id="share" class="bj">
+                <h2><span><img src="../static/images/分享.png" style="width:68px" align="middle"></span>编程知识分享</h2>
+                <p>魔术师的小袋子里有好多神奇的小玩意，每一个都好玩！</p>
+                <p>电脑真是一个非常有趣的东西，我和电脑有着不解之缘，尤其是编程。</p>
+                <p>我爸爸是一个电脑工程师，笔记本电脑是他的随身之物，我就对电脑有着痴
+                    迷般的兴趣，从五岁起就开始玩电脑游戏，但开始时因为输给电脑而痛哭流
+                    涕，逐渐电脑成了我的手下败将，这锻炼了我的毅力。</p>
+                <p>自从上了初中，同学就跟我谈起了电脑编程序，我当时很羡慕他们，自己也想学，从此我认识了
+                    C站。于是我便开始我的编程之路，开始很简单，可后来，程序就复杂了许
+                    多，我有时真想放弃，可是回想起以前玩电脑游戏时的毅力，我还是一步一
+                    步地走了过来，虽然这条路难走，满是泥泞，遍是荆棘，可我还是用当年学
+                    打游戏时的毅力坚持了过来，因为我知道行百里者半九十，坚持就是胜利，
+                    付出的心血不会白费。</p>
+                <p>终于程序学得差不多了，“求公因数”、“阶乘”等都
+                    可以不费吹灰之力地完成，再复杂的程序也不在话下，我在C站上传了许多
+                    我自己做的小游戏，还认识到了许多跟我一样喜爱编程的同学们，同时也
+                    得到了C站老师的夸奖，我真是喜出望外。</p>
+                <p>在C站我收获了好多小伙伴，得到了1000个赞，389个粉丝和986条留言，我还和C站的好朋友一起成立了
+                    自己的工作室，实在是太有成就感了！</p>
+           
+            </div>
+        </div>
+  </div>
+</body>
+
+</html>
